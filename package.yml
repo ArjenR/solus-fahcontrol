@@ -1,0 +1,17 @@
+name       : fahcontrol
+version    : 7.5.1
+release    : 1
+source     :
+    - https://download.foldingathome.org/releases/public/release/fahcontrol/debian-stable-64bit/v7.5/fahcontrol_7.5.1-1_all.deb : c9d37823abe666923d903fbf4d7c6059cf8042a208954bc0044c9c5a6635b4d8
+license    : N/A
+summary    : Folding @ Home Control
+description: |
+    Folding @ Home Control
+rundeps:
+    - python-gtk2
+install    : |
+    tar xf data.tar.xz
+    mkdir -p %installroot%/usr/lib/python2.7/site-packages
+    cp -r usr %installroot%/
+    mv -v %installroot%/usr/lib/python2.7/dist-packages/fah %installroot%/usr/lib/python2.7/site-packages/
+    rm -rf %installroot%/usr/lib/python2.7/dist-packages

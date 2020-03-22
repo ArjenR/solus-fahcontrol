@@ -1,0 +1,55 @@
+<PISI>
+    <Source>
+        <Name>fahcontrol</Name>
+        <Packager>
+            <Name>Arjen Runsink</Name>
+            <Email>arjen.runsink@gmail.com</Email>
+        </Packager>
+        <License>N/A</License>
+        <Summary xml:lang="en">Folding @ Home Control</Summary>
+        <Description xml:lang="en">Folding @ Home Control
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>fahcontrol</Name>
+        <Summary xml:lang="en">Folding @ Home Control</Summary>
+        <Description xml:lang="en">Folding @ Home Control
+</Description>
+        <Files>
+            <Path fileType="executable">/usr/bin/FAHControl</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/Client.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/ClientConfig.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/Connection.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/FAHControl.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/FAHControl_glade.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/Icon.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/SlotConfig.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/Version.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/WidgetMap.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/db/Column.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/db/Database.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/db/Table.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/db/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/util/EntryValidator.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/util/OrderedDict.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/util/PasswordValidator.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/util/SingleApp.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/util/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fah/wraplabel.py</Path>
+            <Path fileType="data">/usr/share/applications/FAHControl.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/fahcontrol/changelog.Debian.gz</Path>
+            <Path fileType="data">/usr/share/pixmaps/FAHControl.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-03-22</Date>
+            <Version>7.5.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Arjen Runsink</Name>
+            <Email>arjen.runsink@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
